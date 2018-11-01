@@ -1,0 +1,4 @@
+It just needs to be stated that this script doesn't work as intended. Getting something like this to work using PowerShell 
+is tough because of the way it's scope works. When variables are able to keep a value locked to them even after a script has
+ended, and through any kind of loop that they are contained in, it can be hard to keep track of everything and make sure items
+are getting initialized at the correct times.
